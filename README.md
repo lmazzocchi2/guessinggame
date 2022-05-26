@@ -1,2 +1,0 @@
-# guessinggame
-guessinggame project
