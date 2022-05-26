@@ -1,9 +1,9 @@
-all: readme.md
+all: README.md
 
-readme.md: guessinggame.sh
-	echo "#Project: guess number of files" >> readme.md
-	echo "This doc has been printed" `date`>> readme.md
-	echo guessinggame.sh has `cat guessinggame.sh | egrep '' -c` lines >> readme.me
+README.md: guessinggame.sh
+	echo "**Project: guess number of files**\/n" >> README.md
+	echo "- This doc has been printed" `date`>> README.md
+	echo - guessinggame.sh has `cat guessinggame.sh | egrep '' -c` lines >> README.md
   
 clean:
 	rm readme.md
